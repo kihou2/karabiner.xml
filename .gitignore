@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>command_R to control+spase</name>
+    <identifier>language_change_key</identifier>
+    <autogen> __KeyToKey__KeyCode::SPACE, ModifierFlag::CONTROL_L, KeyCode::COMMAND_R</autogen>
+  </item>
+
+  <item>
+    <name>delete to real delete</name>
+    <identifier>private.right_command_to_escape</identifier>
+    <autogen>__KeyToKey__ KeyCode::DELETE, ModifierFlag::FN, KeyCode::OPTION_R</autogen>
+  </item>
+</root>
